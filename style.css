@@ -1,7 +1,3 @@
-header{
-    background-image:url('header_bg3.jpg');
-    max-width:100%;
-}
 .img_place{
     padding:4em;
 }
@@ -36,6 +32,12 @@ header{
     font-size:25px;
 }
 
+.title_word_footer{
+    text-align:center;
+    font-size:15px;
+    display:block;
+}
+
 .work{
     width : 300px;
     height: 200px;
@@ -44,8 +46,17 @@ header{
     display:inline;
 }
 
+header{
+    background-image:url('header_bg3.jpg');
+    max-width:100%;
+}
+
 article{
     background-image:url('bg.jpg');
     max-width:100%;
     text-align:center;
+}
+
+footer{
+    background-color: rgb(158, 158, 158);
 }

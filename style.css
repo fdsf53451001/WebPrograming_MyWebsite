@@ -16,7 +16,7 @@ header{
     text-align:center;
     font-size:50px;
 }
-.person1{
+.person{
     width : 700px;
     height: 400px;
     /*700 400*/
@@ -34,6 +34,14 @@ header{
 .title_word_article{
     text-align:center;
     font-size:25px;
+}
+
+.work{
+    width : 300px;
+    height: 200px;
+    margin-right: 25px;
+    margin-left: 25px;
+    display:inline;
 }
 
 article{

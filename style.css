@@ -1,32 +1,84 @@
-.img_place{
-    padding:4em;
+@media screen{
+    .img_place{
+        padding:4em 4em;
+    }
+    .text_outside{ 
+        color:#fff;
+        background-color: #000;
+        opacity:0.6;
+        padding:2em 2em;
+        margin:0 auto;
+    }
+    .img_place_article{
+        padding:0.5em 4em;
+    }
+    .text_outside_article{ 
+        color:#fff;
+        background-color: #000;
+        opacity:0.3;
+        padding:0.5em;
+        margin:0 auto;
+    }
+    .person{
+        width : 700px;
+        height: 400px;
+        /*700 400*/
+    }
+    .work{
+        width : 300px;
+        height: 200px;
+        margin-right: 25px;
+        margin-left: 25px;
+        display:inline;
+    }
 }
-.text_outside{ 
-    color:#fff;
-    background-color: #000;
-    opacity:0.6;
-    padding:2em;
-    margin:0 auto;
+
+@media screen and (max-width:480px){ /*mobile phone*/
+    .img_place{
+        padding:4em 2em;
+    }
+    .text_outside{ 
+        color:#fff;
+        background-color: #000;
+        opacity:0.6;
+        padding:2em 0.5em;
+        margin:0 auto;
+    }
+    .img_place_article{
+        padding:0.5em 2em;
+    }
+    .text_outside_article{ 
+        color:#fff;
+        background-color: #000;
+        opacity:0.3;
+        padding:0.5em;
+        margin:0 auto;
+    }
+    .person{
+        width : 300px;
+        height: 170px;
+        /*700 400*/
+    }
+    .work{
+        width : 300px;
+        height: 200px;
+        /*
+        margin-right: 25px;
+        margin-left: 25px;
+        */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display:inline;
+    }
 }
+
+
 .title_word{
     text-align:center;
     font-size:50px;
 }
-.person{
-    width : 700px;
-    height: 400px;
-    /*700 400*/
-}
-.img_place_article{
-    padding:0.5em 4em;
-}
-.text_outside_article{ 
-    color:#fff;
-    background-color: #000;
-    opacity:0.3;
-    padding:0.5em;
-    margin:0 auto;
-}
+
+
 .title_word_article{
     text-align:center;
     font-size:25px;
@@ -36,14 +88,6 @@
     text-align:center;
     font-size:15px;
     display:block;
-}
-
-.work{
-    width : 300px;
-    height: 200px;
-    margin-right: 25px;
-    margin-left: 25px;
-    display:inline;
 }
 
 header{
